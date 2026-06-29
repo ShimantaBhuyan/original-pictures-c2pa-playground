@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-notary: #015185;
+  --color-navy-deep: #013a63;
+  --color-ink: #102a6b;
+  --color-marine: #1a3a85;
+  --color-mist: #5d6f9e;
+  --color-brass: #cea273;
+  --color-cream: #fcedd3;
+  --color-paper: #fff7e8;
+
+  --font-display: var(--font-sanchez), Palatino Linotype, Georgia, serif;
+  --font-sans: var(--font-spartan), Segoe UI, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), Fira Code, Courier New, monospace;
+
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-default: 150ms;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-paper);
+    color: oklch(55.4% 0.046 257.4);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    color: var(--color-ink);
+  }
+
+  h2 {
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-ink);
+  }
+
+  h3 {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.333;
+    color: var(--color-ink);
+  }
+}

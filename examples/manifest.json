@@ -1,0 +1,138 @@
+{
+  "active_manifest": "urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681",
+  "manifests": {
+    "urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681": {
+      "claim_generator_info": [
+        {
+          "name": "Original Pictures Evidence Agent",
+          "version": "1.0",
+          "org.contentauth.c2pa_rs": "0.85.2"
+        }
+      ],
+      "instance_id": "xmp:iid:3bd27190-83c1-45d2-a6ab-0204fd3e5455",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/c2pa.thumbnail.claim"
+      },
+      "assertions": [
+        {
+          "label": "c2pa.actions.v2",
+          "data": {
+            "actions": [
+              {
+                "action": "c2pa.created"
+              }
+            ]
+          }
+        },
+        {
+          "label": "org.originalpictures.evidence",
+          "data": {
+            "capture": {
+              "cameraDirectionText": null,
+              "cameraHeadingDegrees": null,
+              "capturedAt": "2008-10-22T21:58:00Z",
+              "gps": {
+                "confidence": "high",
+                "lat": 43.46744833333334,
+                "lng": 11.885126666663888,
+                "source": "user"
+              }
+            },
+            "evidenceId": "ev_2026_396",
+            "inspection": null,
+            "integrity": {
+              "createdAt": "2026-06-29T04:41:30.445Z",
+              "createdBy": "Original Pictures Evidence Agent",
+              "schemaVersion": "1.0"
+            },
+            "journalism": {
+              "caption": "Scenery",
+              "organization": "The Guardian",
+              "publicInterestReason": "Scenery",
+              "reporterId": "REP-001",
+              "safetyNotes": ["Scenery 1"],
+              "sourceType": "staff"
+            },
+            "media": {
+              "exifGpsLat": 43.46744833333334,
+              "exifGpsLng": 11.885126666663888,
+              "exifTimestamp": "2008-10-22T16:28:39Z",
+              "fileSizeBytes": 161713,
+              "height": 480,
+              "mimeType": "image/jpeg",
+              "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+              "width": 640
+            },
+            "mode": "journalism"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "Original Pictures",
+        "common_name": "Original Pictures Dev",
+        "cert_serial_number": "11505707335522118514"
+      },
+      "label": "urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681",
+      "claim_version": 2
+    }
+  },
+  "validation_status": [
+    {
+      "code": "signingCredential.untrusted",
+      "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.signature",
+      "explanation": "signing certificate untrusted"
+    }
+  ],
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/c2pa.thumbnail.claim",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/c2pa.actions.v2",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/org.originalpictures.evidence",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/org.originalpictures.evidence"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": [
+        {
+          "code": "signingCredential.untrusted",
+          "url": "self#jumbf=/c2pa/urn:c2pa:5954ac95-79fc-49ba-a9a8-b435ee22c681/c2pa.signature",
+          "explanation": "signing certificate untrusted"
+        }
+      ]
+    }
+  },
+  "validation_state": "Valid"
+}

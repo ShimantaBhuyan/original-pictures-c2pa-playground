@@ -1,0 +1,39 @@
+{
+  "evidenceId": "ev_2026_396",
+  "mode": "journalism",
+  "media": {
+    "sha256": "17307b1207eb6487d7908e9d154890b46e3d2e0192369cfd3f4c33d5a5af4035",
+    "mimeType": "image/jpeg",
+    "fileSizeBytes": 161713,
+    "width": 640,
+    "height": 480,
+    "exifTimestamp": "2008-10-22T16:28:39Z",
+    "exifGpsLat": 43.46744833333334,
+    "exifGpsLng": 11.885126666663888
+  },
+  "capture": {
+    "capturedAt": "2008-10-22T21:58:00Z",
+    "gps": {
+      "lat": 43.46744833333334,
+      "lng": 11.885126666663888,
+      "source": "user",
+      "confidence": "high"
+    },
+    "cameraHeadingDegrees": null,
+    "cameraDirectionText": null
+  },
+  "journalism": {
+    "reporterId": "REP-001",
+    "organization": "The Guardian",
+    "sourceType": "staff",
+    "caption": "Scenery",
+    "publicInterestReason": "Scenery",
+    "safetyNotes": ["Scenery 1"]
+  },
+  "inspection": null,
+  "integrity": {
+    "schemaVersion": "1.0",
+    "createdBy": "Original Pictures Evidence Agent",
+    "createdAt": "2026-06-29T04:41:30.445Z"
+  }
+}

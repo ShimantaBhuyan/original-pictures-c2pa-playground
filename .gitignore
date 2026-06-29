@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.env
+uploads/
+certs/
+data/
+.DS_Store
+**/__temp_test_image.jpg
+.hermes/
+design-system/
+AGENTS.md
