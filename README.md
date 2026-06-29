@@ -51,18 +51,18 @@ Development certs are at `certs/cert.pem` and `certs/private.key` (EC P-256, sel
 
 ## App Screenshots
 
-[screenshots/1-upload-page.png](screenshots/1-upload-page.png)
-[screenshots/2-upload-page-2.png](screenshots/2-upload-page-2.png)
-[screenshots/3-create-evidence-record-1.png](screenshots/3-create-evidence-record-1.png)
-[screenshots/4-create-evidence-record-2.png](screenshots/4-create-evidence-record-2.png)
-[screenshots/5-create-evidence-record-3.png](screenshots/5-create-evidence-record-3.png)
-[screenshots/6-evidence-created.png](screenshots/6-evidence-created.png)
-[screenshots/7-sign.png](screenshots/7-sign.png)
-[screenshots/8-tamper-lab.png](screenshots/8-tamper-lab.png)
-[screenshots/9-tampered-image-display.png](screenshots/9-tampered-image-display.png)
-[screenshots/10-verification.png](screenshots/10-verification.png)
-[screenshots/11-evidence-records-page.png](screenshots/11-evidence-records-page.png)
-[screenshots/12-evidence-record-details-page.png](screenshots/12-evidence-record-details-page.png)
+- [screenshots/1-upload-page.png](screenshots/1-upload-page.png)
+- [screenshots/2-upload-page-2.png](screenshots/2-upload-page-2.png)
+- [screenshots/3-create-evidence-record-1.png](screenshots/3-create-evidence-record-1.png)
+- [screenshots/4-create-evidence-record-2.png](screenshots/4-create-evidence-record-2.png)
+- [screenshots/5-create-evidence-record-3.png](screenshots/5-create-evidence-record-3.png)
+- [screenshots/6-evidence-created.png](screenshots/6-evidence-created.png)
+- [screenshots/7-sign.png](screenshots/7-sign.png)
+- [screenshots/8-tamper-lab.png](screenshots/8-tamper-lab.png)
+- [screenshots/9-tampered-image-display.png](screenshots/9-tampered-image-display.png)
+- [screenshots/10-verification.png](screenshots/10-verification.png)
+- [screenshots/11-evidence-records-page.png](screenshots/11-evidence-records-page.png)
+- [screenshots/12-evidence-record-details-page.png](screenshots/12-evidence-record-details-page.png)
 
 ## Examples
 
@@ -73,5 +73,4 @@ In the /examples folder, you can find samples of
 - the image tampered with pixel tampering method for verification
 - an `evidence.json` file
 - a `manifest.json` file
-- an `evidence.db` file to check the database directly for records - can use DB Browser for inspecting
-
+- an `evidence.db` file to check the database directly for records - can use `DB Browser for SQLite` for inspecting
